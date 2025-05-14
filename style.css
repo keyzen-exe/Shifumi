@@ -4,3 +4,31 @@
     box-sizing: border-box;
 }
 
+.divFeuille{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    margin: 100px;
+    border-radius: 30px;
+}
+
+.divPierre{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    margin: 100px;
+    border-radius: 30px;
+}
+
+.divCiseau{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    margin: 100px;
+    border-radius: 30px;
+}
+
+.btn {
+    cursor: pointer;
+  }
+  
