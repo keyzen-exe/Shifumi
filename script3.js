@@ -17,26 +17,20 @@ function choixJoueur () {
 
  //role : choix ordinateur (piocher un chiffre entre 1 et 3)
  // parametre : rien
- // return : le chiffre pioché 
+ // return : le chiffre pioché
 
- function choixOrdi() {
-    let image = document.getElementById("imageOrdi");
+function choixOrdi() {
     let reponseOrdi = Math.floor(Math.random() * 3) + 1;
 
     if (reponseOrdi === 1){
-        reponseOrdi = "feuille";
-        image.src = "assets/feuille.png";
-    } else if (reponseOrdi === 2){
-        reponseOrdi = "ciseau";
-        image.src = "assets/ciseau.png";
-    } else {
-        reponseOrdi = "pierre";
-        image.src = "assets/pierre.png";
+        reponseOrdi = "feuille"
+    } else if (reponseOrdi === 2 ){
+        reponseOrdi = "ciseau"
+    }else {
+        reponseOrdi = "pierre"
     }
-
-    return reponseOrdi, image;
+    return reponseOrdi;
 }
-
 
 
 
@@ -96,10 +90,6 @@ pierre.addEventListener("click",(event)=>{
     compare(choixOrdi(), choixReponse, score)
 })
 
-
-//role afficher le score
-//parametre score 
-//return le score
 function affichescore(score){
 
     let toto = document.getElementById('score')
@@ -109,4 +99,3 @@ function affichescore(score){
 `;
 
 }
-

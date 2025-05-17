@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -27,8 +29,35 @@
     margin: 100px;
     border-radius: 30px;
 }
+.Ordi{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    margin: 100px;
+    border-radius: 30px;
+}
 
-.btn {
+.btn:hover {
+    transform: scale(1.20);
     cursor: pointer;
+    transition: transform 0.2s ease;
   }
   
+
+header{
+    background-color: #123458;
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    color: #F2E3C8;
+}
+
+
+.espaceJeu{
+    text-align: center;
+}
+
+body{
+    background-color: #F1EFEC;
+    font-family: "Roboto", sans-serif;
+}
