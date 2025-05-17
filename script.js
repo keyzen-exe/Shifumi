@@ -101,7 +101,7 @@ pierre.addEventListener("click",(event)=>{
 //parametre score 
 //return le score
 function affichescore(score){
-
+    
     let toto = document.getElementById('score')
     toto.innerHTML = `
 
